@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon/weather-app.png">
+    <title>The Weather App</title>
+</head>
+
+<body>
+    <div class="weather-app">
+        <div class="container">
+            <h1 class="brand">THE WEATHER APP</h1>
+            <div>
+                <h1 class="temp">16&#176C</h1>
+                <div class="city-time">
+                    <h1 class="name">Delhi</h1>
+                    
+                    <p class="date">Monday 15/09/23</p>
+                    <p class="time">06:09 AM</p>
+                </div>
+
+                <div class="weather">
+                    <img src="icons/day/113.png" class="icon" alt="icon" width="100" height="100">
+                    <span class="condition">Cloudy</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <form action="" id="locationInput">
+                <input type="text" name="" id="" class="search" placeholder="Search Location">
+                <button type="submit" class="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+
+            <!-- <ul class="cities">
+            </ul> -->
+
+            <ul class="details">
+                <strong><h2>Weather Details</h2></strong>
+                <li>
+                    <img src="special icons/clouds.png" class="icon" alt="icon" width="25" height="25">
+                    <span>Cloudy : </span>
+                    <span class="cloud">89%</span>
+                </li>
+
+                <li>
+                    <img src="special icons/drop.png" class="icon" alt="icon" width=25" height="25">
+                    <span>Humidity : </span>
+                    <span class="humidity">64%</span>
+                </li>
+
+                <li>
+                    <img src="special icons/wind.png" class="icon" alt="icon" width="25" height="25">
+                    <span>Wind : </span>
+                    <span class="wind">8km/hr</span>
+                </li>
+
+
+                <li>
+                    <img src="special icons/temperature.png" class="icon" alt="icon" width="25" height="25">
+                    <span>Feels Like : </span>
+                    <span class="feels-like"> 16&#176C</span>
+                </li>
+
+                <li>
+                    <img src="special icons/temperature.png" class="icon" alt="icon" width="25" height="25">
+                    <span>Maximum Temperature : </span>
+                    <span class="max-temp">10&#176C</span>
+                </li>
+
+                <li>
+                    <img src="special icons/temperature.png" class="icon" alt="icon" width="25" height="25">
+                    <span>Minimum Temperature : </span>
+                    <span class="min-temp">20&#176C</span>
+                </li>
+
+                <li>
+                    <img src="special icons/sun.png" class="icon" alt="icon" width="25" height="25">
+                    <span>Sunrise : </span>
+                    <span class="sunrise">05:09 AM</span>
+                </li>
+
+                <li>
+                    <img src="special icons/sun.png" class="icon" alt="icon" width="25" height="25">
+                    <span>Sunset : </span>
+                    <span class="sunset">06:09 PM</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
